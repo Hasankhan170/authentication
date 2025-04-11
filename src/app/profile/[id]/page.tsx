@@ -1,18 +1,15 @@
-'use client'
 import React from 'react'
 
-interface ProfilePageProps {
-    params: {
-      id: string;
-    };
-  }
+interface PageProps {
+  params: { id: string };
+}
 
-const page = ({params} : ProfilePageProps) => {
+const ProfilePage = ({ params }: PageProps) => {
   return (
     <div>
       <h1>{params.id}</h1>
     </div>
-  )
-}
+  );
+};
 
-export default page
+export default ProfilePage;
