@@ -4,7 +4,9 @@ const nextConfig: NextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
-  // aur bhi config options yahan likho
+  images: {
+    domains: ['encrypted-tbn0.gstatic.com'],
+  },
 };
 
 export default nextConfig;
