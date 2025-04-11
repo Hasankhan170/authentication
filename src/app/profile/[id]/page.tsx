@@ -1,7 +1,13 @@
 'use client'
 import React from 'react'
 
-const page = ({params} : {params : {id : string}}) => {
+interface ProfilePageProps {
+    params: {
+      id: string;
+    };
+  }
+
+const page = ({params} : ProfilePageProps) => {
   return (
     <div>
       <h1>{params.id}</h1>
