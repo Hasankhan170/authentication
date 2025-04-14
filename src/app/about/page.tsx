@@ -16,7 +16,6 @@ const About = () => {
     triggerOnce: true,
   });
 
-  // Animation variants
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -99,7 +98,6 @@ const About = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-800 text-white pt-24">
-      {/* Hero Section */}
       <section className="relative py-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           {/* Animated background elements */}
@@ -221,7 +219,6 @@ const About = () => {
         </div>
       </section>
 
-      {/* Values Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-900/50">
         <div className="max-w-7xl mx-auto">
           <motion.div
@@ -340,7 +337,6 @@ const About = () => {
         </div>
       </section>
 
-      {/* Mission Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-900/50">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row items-center gap-12">
